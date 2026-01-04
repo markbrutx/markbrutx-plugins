@@ -54,5 +54,5 @@ Start an autonomous iteration loop that continues until completion criteria are 
 
 ---
 
-```! "${CLAUDE_PLUGIN_ROOT}/scripts/setup-ralph-loop.sh" $ARGUMENTS
+```! "${CLAUDE_PLUGIN_ROOT}/scripts/setup-ralph-loop.sh" "$ARGUMENTS"
 ```
