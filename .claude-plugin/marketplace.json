@@ -1,0 +1,24 @@
+{
+  "name": "markbrutx-plugins",
+  "owner": {
+    "name": "markbrutx",
+    "email": "markbrutx@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace by markbrutx. Windows-compatible forks and custom plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ralph-win",
+      "source": "./plugins/ralph-win",
+      "description": "Windows-compatible fork of ralph-wiggum. Interactive self-referential AI loops for iterative development. Fixed: jq PATH issues, Git Bash compatibility, Windows path handling.",
+      "version": "1.0.0",
+      "author": {
+        "name": "markbrutx"
+      },
+      "category": "development",
+      "keywords": ["ralph", "loop", "iteration", "autonomous", "windows", "git-bash"]
+    }
+  ]
+}

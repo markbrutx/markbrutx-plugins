@@ -1,0 +1,12 @@
+{
+  "name": "ralph-win",
+  "description": "Windows-compatible fork of ralph-wiggum. Interactive self-referential AI loops for iterative development. Claude works on the same task repeatedly until completion. Fixed: jq PATH issues, Git Bash compatibility, Windows path handling.",
+  "version": "1.0.0",
+  "author": {
+    "name": "markbrutx",
+    "email": "markbrutx@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/anthropics/claude-code/issues/14817",
+  "license": "MIT",
+  "keywords": ["ralph", "loop", "iteration", "autonomous", "windows"]
+}
