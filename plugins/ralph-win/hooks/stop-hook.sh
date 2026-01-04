@@ -173,8 +173,15 @@ main() {
         }'
     )
     
-    # Simplified response for re-injection
-    echo "{\"decision\": \"block\", \"reason\": \"Ralph loop iteration $new_iteration${max_iterations:+/$max_iterations}\", \"systemMessage\": \"[RALPH LOOP - Iteration $new_iteration${max_iterations:+/$max_iterations}] Continue working on the task. Original prompt: $prompt\"}"
+    # Simplified response for re-injection (use jq to escape prompt properly)
+    jq -n \
+        --arg iteration "$new_iteration${max_iterations:+/$max_iterations}" \
+        --arg prompt "$prompt" \
+        '{
+            "decision": "block",
+            "reason": ("Ralph loop iteration " + $iteration),
+            "systemMessage": ("[RALPH LOOP - Iteration " + $iteration + "] Continue working on the task. Original prompt: " + $prompt)
+        }'
     exit 2
 }
 

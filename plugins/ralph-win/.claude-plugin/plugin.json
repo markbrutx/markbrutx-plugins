@@ -1,7 +1,7 @@
 {
   "name": "ralph-win",
   "description": "Windows-compatible fork of ralph-wiggum. Interactive self-referential AI loops for iterative development. Claude works on the same task repeatedly until completion. Fixed: jq PATH issues, Git Bash compatibility, Windows path handling.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "markbrutx",
     "email": "markbrutx@users.noreply.github.com"

@@ -13,7 +13,7 @@
       "name": "ralph-win",
       "source": "./plugins/ralph-win",
       "description": "Windows-compatible fork of ralph-wiggum. Interactive self-referential AI loops for iterative development. Fixed: jq PATH issues, Git Bash compatibility, Windows path handling.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "markbrutx"
       },
